@@ -9,10 +9,15 @@
 		"libs/modules/promise/promise.js"
 	],
 	"game": [
+		"bin-debug/Level/Level.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
-		"bin-debug/ThemeAdapter.js"
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/background/BackgroundGame.js",
+		"bin-debug/Level/TheFirstPass.js",
+		"bin-debug/utils/BgSoundMusic.js",
+		"bin-debug/utils/ImageResUtils.js"
 	]
 }
