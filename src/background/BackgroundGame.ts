@@ -12,7 +12,7 @@ class BackgroundGame extends egret.DisplayObjectContainer{
 	 * 屏幕的高度
 	 */
 	private stageH:number;
-	/**
+	/** 
 	 * 地图滚动速度，越小滚动越快。毫秒
 	 */
 	private mBgSpeed = 4000;

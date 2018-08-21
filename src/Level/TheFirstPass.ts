@@ -14,7 +14,11 @@ class TheFirstPass extends Level{
 		//加载背景
         this.mBgGame = new BackgroundGame();
         this.addChild(this.mBgGame);
-		this.mBgGame.startAnimationBg();
+		 //主角进场
+        var lead = new Lead(function(){
+            this.mBgGame.startAnimationBg();
+        },this);
+        this.addChild(lead);
 		//加载游戏音乐
 		this.mBgSoundMusic = new BgSoundMusic();
 		this.mBgSoundMusic.playMusic();
